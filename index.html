@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Madelyn Bonzi">
+    <meta name="description" content="Practice with Bootstrap table formatting and responsiveness">
+    <title>Bootstrap Page Responsiveness</title>
+</head>
+<body>
+    <H1>Bootstrap Page Responsiveness</H1>
+        <p>This viewport size is currently: <span id="viewport-size"></span> <span id="breakpointName"></span></p>
+        <p>Breakpoints: Extra small (default) is &lt; 576 (and up); Small (SM) is ≥ 576px; Medium (MD) is ≥ 768px; Large (LG) is ≥ 992px; Extra Large (XL) is ≥ 1200px.<br />
+        <div class="container">
+            <div class="row">
+            <div class="col-4 col-sm-2 col-md-2">
+                One
+            </div>
+            <div class="col-4 col-sm-2 col-md-2">
+                Two
+            </div>
+            <div class="col-4 col-sm-8 col-md-8">
+                Three
+            </div>       
+            </div>
+            <div class="row">
+            <div class="col-4 col-sm-4 col-md-3">
+                Four
+            </div>
+            <div class="col-4 col-sm-4 col-md-6">
+                Five
+            </div>
+            <div class="col-4 col-sm-4 col-md-3">
+                Six
+            </div>      
+            </div>  
+            <div class="row">
+            <div class="col-default-12 col-sm-12 col-md-12 col-lg-4">
+                Seven
+            </div>
+            <div class="col-default-12 col-sm-12 col-md-12 col-lg-4">
+                Eight
+            </div>
+            <div class="col-default-12 col-sm-12 col-md-12 col-lg-4"> 
+                <!-- this final one could just be col and it would work too, but seems more legit to make it consistent to show intent -->
+                Nine
+            </div>         
+            </div>
+        </div>   
+    <br />
+</body>
+</html>
