@@ -4,5 +4,6 @@ function changeColor() {
   }
 
   function getData() {
-    
+    document.getElementsByTagName("p")[0].textContent=
+    document.getElementsByTagName("button")[0].getAttribute()
   }
