@@ -14,7 +14,6 @@ let removedItems = vegetables.splice(pos, n)
 console.log(vegetables)
 console.log(removedItems)
 
-/*Code Challenge: JS Review - Loops and Arrays*/
 const firstNamesArray = ['Violet', 'Charlie', 'Veruca', 'Mike', 'Augustus'];
 const lastNamesArray = ['Beauregarde', 'Bucket', 'Salt', 'Teavee', 'Gloop'];
 

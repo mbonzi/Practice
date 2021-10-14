@@ -8,7 +8,6 @@ function changeColor() {
     document.getElementsByTagName("button")[0].getAttribute("data-text");
   }
 
-  /*Code Challenge: JS Review - Loops and Arrays*/
 const firstNamesArray = ['Violet', 'Charlie', 'Veruca', 'Mike', 'Augustus'];
 const lastNamesArray = ['Beauregarde', 'Bucket', 'Salt', 'Teavee', 'Gloop'];
 
