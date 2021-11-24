@@ -1,7 +1,10 @@
-let myArr = [4,5,6,7, 'end']
+let myArr = [4,5,6,7, 'end'];
 myArr[3];
-console.log(myArr.length)
-myArr.push(6)
+
+console.log(myArr.length);
+
+myArr.push(6);
+
 let pos = myArr.indexOf('end')
 let removedItem = myArr.splice(pos, 1)
 
